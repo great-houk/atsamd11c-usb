@@ -402,6 +402,7 @@ clock_generator!(
     (sercom0_core, Sercom0CoreClock, SERCOM0_CORE),
     (sercom1_core, Sercom1CoreClock, SERCOM1_CORE),
     (sercom2_core, Sercom2CoreClock, SERCOM2_CORE),
+    (usb, UsbClock, USB),
     (rtc, RtcClock, RTC),
     (adc, AdcClock, ADC),
     (wdt, WdtClock, WDT),
